@@ -1,0 +1,30 @@
+<form> action Define a URL (endereço) para a qual os dados do formulário serão enviados.
+<form> method Define o método HTTP (POST ou GET) para envio dos dados.
+<label> for Vincula a tag <label> ao campo ao qual ela se refere.
+<input> minlength, maxlength Definem a quantidade de caracteres mínima e máxima.
+<input>,<button> type Define o tipo do campo e, sobretudo, como ele se comporta.
+<option> value Pode ser utilizado na tag <input> e na <input>.
+
+ATRIBUTOS do FORMULÁRIO: o atributo "TYPE"
+"password" Mascara o texto com asteriscos.
+"hidden" Esconde o campo para não ser exibido no navegador.
+"checkbox" Seleção de valor através de click/check.
+"radio" Usado para seleção exclusiva de valor.
+"submit" Associado à tag <button>, dispara o evento que envia/submete o formulário.
+"reset" Associada à tag <button>, dispara o evento que limpa os valores do formulário.
+"button" Apresenta um componente "botão" no formulário.
+
+Novos Atributos e tipos de entrada
+
+placeholder Exibir um texto no campo de input.
+required Determinar se um campo é obrigatòrio.
+autofocus Fixar o foco no campo.
+pattern Validar o valor de um campo com base em uma expressão regular.
+
+Lista de Tags comumente usadas em formulários
+<form> Container principal do formulário.
+<input> Campo do formulário. Como há diversos tipos de campos, fazemos uso do atributo "type" para informar o tipo a ser utilizado - conforme veremos mais adiante.
+<textarea> Campo de texto de múltiplas linhas.
+<select> e <option> Campos de seleção, onde o container é definido pela tag <select> e os itens pela tag <option>.
+<button> Campo de botão. Permite que uma ação seja executada no formulário - enviar o formulário; limpar os dados etc.
+<label> Campo usado para definir um título, uma legenda, que descreva para que serve cada campo do formulário.

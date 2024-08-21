@@ -1,0 +1,7 @@
+<table> Container principal da tabela.
+<tr> Representa as linhas, sendo composta pelas tags relacionadas às colunas.
+<td> Representa as colunas e precisa ser inserida dentro da tag de linha.
+<th> Também representa colunas e é usada para exibir o título de uma coluna, possuindo,
+neste sentido, função semântica.
+<thead> Armazena o cabeçalho da tabela, sendo composto por linhas e colunas.
+<tfoot> Armazena o rodapé da tabela, tendo também função semântica em termos de estruturação.
